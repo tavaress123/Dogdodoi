@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.cabecalho{
+    background-color:whitesmoke;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap:150px:
+}
+.menu{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+
+    display:flex;
+    gap:25px;
+    list-style: none;
+}
+
+.btnAvaliação {
+    background-color: deeppink;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+.banner{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d4c6f3;
+}
+
+.tituloBanner{
+    color: deeppink;
+    font-size: 40px;
+
+}
+.subTituloBanner{
+    font-size:25px;
+    font-weight: normal;
+    font-family:"Dubai Light" ;
+}
+
+.imgCachorro{
+    width: 500px;
+}
+
+.btnBanner{
+    background-color: deeppink;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+
+}
+
+.bemvindo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+}
+.texto1,
+.texto2{
+    width: 50%;
+}
+.texto1 h4{
+    color: deeppink;
+}
+
+.fundoBeneficios{
+    display:flex;
+    justify-content: center; space-around;
+    align-items: center;
+    width: 100%;
+}
+.beneficio{
+    background-color: lightblue;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+
+
+}
+.titulobeneficios{
+    color: deeppink;
+}
+
+.beneficio1,
+.beneficio2,
+.beneficio3{
+    color: deeppink;
+    text-align: center;
+}
+
+.beneficio1 img,
+.beneficio2 img,
+.beneficio3 img{
+    border-radius: 50%;
+    width: 100px;
+}
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fundoformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 220px;
+}
+
+.formAvaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bntformavaliacao{
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
